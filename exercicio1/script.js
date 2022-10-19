@@ -8,6 +8,9 @@ console.log(`
     O tipo da variável "age" é: ${typeof age}.
   `)
 
+alert(`O tipo da variável "fullName" é: ${typeof fullName}`)
+alert(`O tipo da variável "age" é: ${typeof age}`)
+
 /* 
   
  Pela ausência de valores atribuídos às variáveis "fullName" e "age", 
@@ -15,9 +18,6 @@ console.log(`
  são variáveis "undefined".
   
 */
-
-alert(`O tipo da variável "fullName" é: ${typeof fullName}`)
-alert(`O tipo da variável "age" é: ${typeof age}`)
 
 fullName = prompt('Qual é o seu nome?')
 age = prompt('Qual é a sua idade?')
@@ -29,7 +29,7 @@ console.log(`
 
 /* 
   
- Após a atribuição dos valores pelo usuário. O retorno define ambos os
+ Após a atribuição dos valores pelo usuário, o retorno define ambos os
  tipos como "string". Isso acontece pelo fato de que o método prompt  
  retorna apenas strings.
   
